@@ -21,21 +21,27 @@ class AutoJobMailerApp:
         self.password_var = tk.StringVar()
         self.interval_var = tk.IntVar(value=5)
 
+        # Gmail Email
         tk.Label(master, text="Gmail Email:").pack(pady=5)
         tk.Entry(master, textvariable=self.email_var, width=50).pack()
 
+        # App Password
         tk.Label(master, text="App Password:").pack(pady=5)
         tk.Entry(master, textvariable=self.password_var, width=50, show="*").pack()
 
+        # Resume
         tk.Label(master, text="Resume (PDF):").pack(pady=5)
         tk.Button(master, text="Select Resume", command=self.select_resume).pack()
 
+        # CSV
         tk.Label(master, text="Company CSV:").pack(pady=5)
         tk.Button(master, text="Select CSV", command=self.select_csv).pack()
 
+        # Interval
         tk.Label(master, text="Delay between emails (sec):").pack(pady=5)
         tk.Entry(master, textvariable=self.interval_var, width=10).pack()
 
+        # Start
         tk.Button(master, text="Start Sending", command=self.start_thread).pack(pady=20)
 
     def select_resume(self):
