@@ -29,17 +29,17 @@ A **desktop automation app** that helps job seekers send resumes and personalize
 ```
 
 AutoJobMailer/
-│── ultimate\_job\_app.py          # Main Tkinter desktop app
-│── setup\_job\_app.py             # One-time setup script
-│── csv\_watch/                   # Drop company CSVs here
+│── ultimate\_job\_app.py          # Main Tkinter desktop app<br>
+│── setup\_job\_app.py             # One-time setup script<br>
+│── csv\_watch/                   # Drop company CSVs here<br>
 │   └── sample\_companies.csv
-│── resume/                      # Store your resume PDF here
+│── resume/                      # Store your resume PDF here<br>
 │   └── Shivansh\_Resume.pdf
-│── email\_log.csv                # Logs of sent emails
-│── error\_log.txt                # Logs of errors
-│── GMAIL\_APP\_PASSWORD\_GUIDE.txt # Gmail App Password instructions
-│── LICENSE                      # MIT License
-│── README.md
+│── email\_log.csv                # Logs of sent emails<br>
+│── error\_log.txt                # Logs of errors<br>
+│── GMAIL\_APP\_PASSWORD\_GUIDE.txt # Gmail App Password instructions<br>
+│── LICENSE                      # MIT License<br>
+│── README.md<br>
 │── .gitignore
 
 ````
@@ -102,7 +102,7 @@ python ultimate_job_app.py
 
 ## 📜 License
 
-MIT License – see [LICENSE](LICENSE).
+MIT License – see LICENSE
 
 ---
 
